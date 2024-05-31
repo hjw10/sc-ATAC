@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+ascp -QT -l 300m -P33001 -i $HOME/anaconda3/envs/aspera/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:vol1/fastq/SRR185/026/SRR18503826/SRR18503826_1.fastq.gz . && mv SRR18503826_1.fastq.gz SRR18503826_GSM5975165_Arm_d60_Mus_musculus_ATAC-seq_1.fastq.gz
+ascp -QT -l 300m -P33001 -i $HOME/anaconda3/envs/aspera/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:vol1/fastq/SRR185/026/SRR18503826/SRR18503826_2.fastq.gz . && mv SRR18503826_2.fastq.gz SRR18503826_GSM5975165_Arm_d60_Mus_musculus_ATAC-seq_2.fastq.gz
+ascp -QT -l 300m -P33001 -i $HOME/anaconda3/envs/aspera/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:vol1/fastq/SRR185/025/SRR18503825/SRR18503825_1.fastq.gz . && mv SRR18503825_1.fastq.gz SRR18503825_GSM5975166_Arm_d200_Mus_musculus_ATAC-seq_1.fastq.gz
+ascp -QT -l 300m -P33001 -i $HOME/anaconda3/envs/aspera/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:vol1/fastq/SRR185/025/SRR18503825/SRR18503825_2.fastq.gz . && mv SRR18503825_2.fastq.gz SRR18503825_GSM5975166_Arm_d200_Mus_musculus_ATAC-seq_2.fastq.gz
