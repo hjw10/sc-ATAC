@@ -1,3 +1,5 @@
+#这里代码跟rcode2中的部分有重复，这里是基于Cluster做的，另外由于ComplexHeatmap在服务器不能下，所有以下步骤是我在自己电脑的R下面跑的
+
 projPBMC_3 <- addGroupCoverages(ArchRProj = projPBMC_2, groupBy = "Clusters")
 projPBMC_3 <- addReproduciblePeakSet(
     ArchRProj = projPBMC_3, 
